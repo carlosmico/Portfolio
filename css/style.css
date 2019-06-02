@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 2em;
+    width: 100%;
+}
+
+
+/* ==== NAVBAR ==== */
+
+.navbar {
+    background-color: #272822;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    z-index: 100;
+}
+
+.navbar>img {
+    position: absolute;
+    top: 10;
+    right: 20;
+}
+
+
+/* ==== HEADER ==== */
+
+header {
+    background-color: #272822;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.headerContent {
+    /* background-color: #272822; */
+    padding-left: 10vw;
+    color: white;
+}
+
+
+/* Colores monokai - Gris: #272822 Verde: #a6e22e Rosa: #f92672 Azul: #66d9ef */
+
+.headerContent>*:not(:first-child) {
+    padding-left: 2em;
+}
+
+.headerContent>p:first-child {
+    font-size: 2em;
+}
+
+.headerContent>p:nth-child(2) {
+    /* color: #f92672; */
+    font-size: 2em;
+}
+
+.headerContent>h1 {
+    color: #66d9ef;
+    font-size: 2.5em;
+}
+
+.headerContent>p:nth-child(4) {
+    color: #f92672;
+    font-size: 1.5em;
+}
+
+.headerContent>p:last-child {
+    font-size: 2em;
+    padding-left: 0;
+}
+
+
+/* ==== ABOUT ME ==== */
+
+.aboutMeContent>* {
+    margin-top: 1em;
+}
+
+
+/* ==== FOOTER ==== */
+
+footer {
+    background-color: #272822;
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.separator {
+    height: 2px;
+    width: 100%;
+    background-color: #f92672;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
