@@ -129,6 +129,16 @@ footer {
     padding: 1em;
 }
 
+.socialLinks>a>img:hover {
+    border: 2px solid #f92672;
+    border-radius: 20px
+}
+
+.socialLinks>a>img {
+    width: 40px;
+    height: 40px;
+}
+
 .separator {
     height: 2px;
     width: 100%;
