@@ -6,13 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Carlos Micó - Full Stack developer</title>
 
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="./js/main.js"></script>
 </head>
 
 <body>
     <div class="navbar">
-        <img src="/img/menu-icon.png" />
+        <img src="/img/menu-icon.png" class="menuBtn" />
+    </div>
+
+    <div class="floatMenu noneFloatMenu">
+
     </div>
 
     <header>
@@ -31,15 +38,21 @@
         <section class="aboutMe">
             <h2>Sobre mí</h2>
 
-            <div class="aboutMePicture">
-                <img src="" alt="">
+            <div>
+                <div class="aboutMePicture">
+                    <img src="img/foto-carlos.jpg" alt="">
+                </div>
+
+                <div class="aboutMeContent">
+                    <p>Mi nombre es Carlos Micó y soy programador Full Stack. ¿Como que Full Stack? Significa que puedo servirte tanto para el desarrollo FrontEnd como para el BackEnd.</p>
+
+                    <p>Apasionado por el mundo de la tecnología y la programación. Me entusiasma formar parte de proyectos nuevos, interesantes e innovadores.</p>
+                </div>
+
+
             </div>
 
-            <div class="aboutMeContent">
-                <p>Mi nombre es Carlos Micó y soy programador Full Stack. ¿Como que Full Stack? Significa que puedo servirte tanto para el desarrollo FrontEnd como para el BackEnd.</p>
-
-                <p>Apasionado por el mundo de la tecnología y la programación. Me entusiasma formar parte de proyectos nuevos, interesantes e innovadores.</p>
-            </div>
+            <p>Si no conozco algo, lo aprendo.</p>
 
         </section>
 
@@ -82,9 +95,13 @@
     <footer>
 
         <div class="socialLinks">
-            <a href="https://github.com/carlosmico"><img src="./img/github.png" alt="Github"></a>
+            <!-- <a href="https://github.com/carlosmico"><img src="./img/github.png" alt="Github"></a>
             <a href="https://www.linkedin.com/in/carlos-mic%C3%B3-huertas-b662b1124/"><img src="./img/linkedin.png" alt=""></a>
-            <a href="https://twitter.com/carlos_mico_"><img src="./img/twitter.png" alt=""></a>
+            <a href="https://twitter.com/carlos_mico_"><img src="./img/twitter.png" alt=""></a> -->
+            <a href="https://github.com/carlosmico"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/carlos-mic%C3%B3-huertas-b662b1124/"><i class="fab fa-linkedin-in"></i></i></a>
+            <a href="https://twitter.com/carlos_mico_"><i class="fab fa-twitter"></i></a>
+
         </div>
 
 
@@ -92,7 +109,7 @@
         </div>
 
         <div class="copyright">
-            <p>© Carlos Micó 2019. Todos los derechos reservados.</p>
+            <h3>© Carlos Micó 2019. Todos los derechos reservados.</h3>
         </div>
     </footer>
 </body>
