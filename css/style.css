@@ -6,7 +6,8 @@
     }
 
     body {
-        background-color: #272822;
+        /* background-color: #272822; */
+        background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -19,7 +20,8 @@
         align-items: center;
         justify-content: center;
         text-align: justify;
-        background-color: #272822;
+        /* background-color: #272822; */
+        background-color: black;
         color: white;
     }
 
@@ -78,7 +80,7 @@
     /* ==== HEADER ==== */
 
     header {
-        background-color: #272822;
+        
         color: white;
         height: 100vh;
         display: flex;
@@ -342,7 +344,8 @@
     /* ==== FOOTER ==== */
 
     footer {
-        background-color: #272822;
+        /* background-color: #272822; */
+        background-color: black;
         color: white;
         text-align: center;
         padding: 2em;
@@ -360,7 +363,6 @@
 
     .socialLinks>a>i {
         color: white;
-        background-color: #272822;
         border: 0.7px solid #66d9ef;
         border-radius: 50%;
         padding: 0.3em;
