@@ -134,8 +134,16 @@
         </div>
     </footer> -->
 
+    <header>
+        <a href=""><img src="./img/favicon.png" alt="C.M."></a>
+        <a href="#aboutMe">Quién soy?</a>
+        <a href="#technologies">Tecnologías</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+    </header>
+
     <div id="fullpage">
-        <div class="section">
+        <div class="section" id="firstSection">
             <div class="firstSection">
                 <p>{</p>
                 <p>Hola,</p>
@@ -193,7 +201,7 @@
         </div>
 
         <div class="section">
-            <div class="projects">
+            <!-- <div class="projects">
                 <div class="slide">
                     <div class="project">
                         <img src="./img/shoplist.PNG" alt="Shoplist">
@@ -218,7 +226,34 @@
                             Gestión red libros</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+            <div class="projects">
+                    <h2>Mis proyectos</h2>
+        
+                    <div>
+                        <div class="projectsList">
+                            <div class="project">
+                                <img src="./img/shoplist.PNG" alt="Shoplist">
+        
+                                <a href="https://carlosmico.github.io/ShopList/" target="blank" class="title1">🛒 Shoplist</a>
+                            </div>
+                            <div class="project">
+                                <img src="https://pbs.twimg.com/media/DfWQzsTW0AA9pBt.jpg" alt="Fuelgest">
+        
+                                <a href='https://play.google.com/store/apps/details?id=com.carlosapps.fuelgest&hl=en_US'
+                                    target="blank" class="title2">⛽ FuelGest </a>
+                            </div>
+                            <div class="project">
+        
+                                <img src="./img/MainGestionLibros.PNG" alt="Gestión red libros">
+        
+                                <a href='https://github.com/carlosmico/GestionRedLibros' target="blank" class="title3">📚
+                                    Gestión red libros</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
         <div class="section">
             <div class="contact">
@@ -247,6 +282,7 @@
             //options here
             autoScrolling: true,
             scrollHorizontally: true,
+            anchors:['', 'aboutMe', 'technologies', 'projects', 'contact'],
             licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
         });
     </script>

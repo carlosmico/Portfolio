@@ -27,6 +27,35 @@
         padding: 0.5em;
     }
 
+    /* Header */
+
+    header{
+        position: sticky;
+        width: 100vw;
+        padding: 1em;
+        color: white;
+        top: 0;
+        background-color: #272822;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    header > a{
+        all: unset;
+        color: white;
+    }
+
+    header > a:hover{
+        color: #66d9ef;
+        cursor: pointer;
+    }
+
+    header > a:first-child img{
+        height: 35px;
+    }
+
     /* ==== First Section ==== */
 
     .firstSection {
@@ -188,11 +217,15 @@
         max-height: 200px;
     }
 
-    /* === PROJECTS === */
+       /* === PROJECTS === */
 
-    .projects {
-        height: 100vh;
-        width: 100vw;
+       .projectsList {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        flex-wrap: wrap;
     }
 
     @media(max-width: 600px) {
@@ -204,12 +237,22 @@
     }
 
     .project {
-        height: 100%;
+        position: relative;
+        border: 3px solid #eeeeee;
+        margin: 0.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
     }
 
+    .project:hover {}
+
     .project>img {
-        width: 100%;
-        height: 100%;
+        width: 300px;
+        height: 180px;
+        max-width: 50vw;
+        max-height: 30vw;
     }
 
     .project>a {
