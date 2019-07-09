@@ -47,6 +47,7 @@
 
     .navbar-nav {
         padding: 0.5em;
+        margin-top: 1em;
     }
 
     .navbar-toggler-icon {
@@ -62,17 +63,20 @@
         cursor: pointer;
     }
 
-
-    .nav-item:nth-child(2)>.nav-link:hover {
+    .nav-item:nth-child(1)>.nav-link:hover {
         color: #f92672 !important;
     }
 
-    .nav-item:nth-child(3)>.nav-link:hover {
+    .nav-item:nth-child(2)>.nav-link:hover {
         color: #66d9ef !important;
     }
 
-    .nav-item:nth-child(4)>.nav-link:hover {
+    .nav-item:nth-child(3)>.nav-link:hover {
         color: #a6e22e !important;
+    }
+
+    .nav-item:nth-child(4)>.nav-link:hover {
+        color: #FD971F !important;
     }
 
     nav>a:first-child img {
