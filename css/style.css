@@ -45,11 +45,11 @@
         padding-right: 2em;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         padding: 0.5em;
     }
 
-    .navbar-toggler-icon{
+    .navbar-toggler-icon {
         background-image: url('../img/menu.png') !important;
     }
 
@@ -58,13 +58,25 @@
         color: white !important;
     }
 
-    .nav-link:hover {
-        color: #66d9ef !important;
+    .nav-item>.nav-link:hover {
         cursor: pointer;
     }
 
+
+    .nav-item:nth-child(2)>.nav-link:hover {
+        color: #f92672 !important;
+    }
+
+    .nav-item:nth-child(3)>.nav-link:hover {
+        color: #66d9ef !important;
+    }
+
+    .nav-item:nth-child(4)>.nav-link:hover {
+        color: #a6e22e !important;
+    }
+
     nav>a:first-child img {
-        height: 35px;
+        height: 40px;
     }
 
     /* ==== First Section ==== */
@@ -146,29 +158,33 @@
         width: 100vw;
         margin-top: 1em;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         text-align: justify;
     }
 
     .aboutMe>div {
+        width: 50%;
         display: flex;
+        flex-direction: column;
         justify-content: flex-start;
         padding-left: 2em;
         padding-right: 2em;
     }
 
-    @media(max-width: 660px) {
-        .aboutMe>div {
-            display: flex;
+    @media(max-width: 535px) {
+        .aboutMe {
             flex-direction: column;
-            align-items: center;
+        }
+
+        .aboutMe>div {
+            width: 100%;
         }
     }
 
     .aboutMePicture {
         display: flex;
+        justify-content: center;
         align-items: center;
         margin: 0.5em;
     }
@@ -190,10 +206,10 @@
         margin-top: 0.5em;
     }
 
-    .aboutMe>p:last-child {
+    .aboutMeContent>p:last-child {
         align-self: center;
         font-style: italic;
-        
+
         color: grey;
     }
 
@@ -235,8 +251,6 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        padding-top: 2em;
-        padding-bottom: 1em;
         flex-wrap: wrap;
     }
 
@@ -250,7 +264,8 @@
 
     .project {
         position: relative;
-        border: 3px solid #eeeeee;
+        /* border: 3px solid #eeeeee; */
+        box-shadow: 0px 0px 5px 0px gray;
         margin: 0.5em;
         display: flex;
         flex-direction: column;
@@ -258,7 +273,9 @@
         font-weight: bold;
     }
 
-    .project:hover {}
+    .project a {
+        color: white !important;
+    }
 
     .project>img {
         width: 300px;

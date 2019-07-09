@@ -12,7 +12,7 @@
     <script src="./js/fullpage.js"></script>
 
 
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/faviconold.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -32,7 +32,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href=""><img src="./img/favicon.png" alt="C.M."></a>
+        <a href="#welcome"><img src="./img/faviconold.png" alt="C.M."></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,6 +41,9 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#aboutMe">Quien soy?</a>
+                </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#technologies">Tecnologías</a>
                 </li>
@@ -81,10 +84,10 @@
 
                         <p>Apasionado por el mundo de la tecnología y la programación. Me entusiasma formar parte de
                             proyectos nuevos, interesantes e innovadores.</p>
+
+                        <p>Si no conozco algo, lo aprendo.</p>
                     </div>
                 </div>
-
-                <p>Si no conozco algo, lo aprendo.</p>
             </div>
         </div>
 
@@ -113,33 +116,6 @@
         </div>
 
         <div class="section">
-            <!-- <div class="projects">
-                <div class="slide">
-                    <div class="project">
-                        <img src="./img/shoplist.PNG" alt="Shoplist">
-
-                        <a href="https://carlosmico.github.io/ShopList/" target="blank" class="title1">🛒 Shoplist</a>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="project">
-                        <img src="https://pbs.twimg.com/media/DfWQzsTW0AA9pBt.jpg" alt="Fuelgest">
-
-                        <a href='https://play.google.com/store/apps/details?id=com.carlosapps.fuelgest&hl=en_US'
-                            target="blank" class="title2">⛽ FuelGest </a>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="project">
-
-                        <img src="./img/MainGestionLibros.PNG" alt="Gestión red libros">
-
-                        <a href='https://github.com/carlosmico/GestionRedLibros' target="blank" class="title3">📚
-                            Gestión red libros</a>
-                    </div>
-                </div>
-            </div> -->
-
             <div class="projects">
                 <h2>Mis proyectos</h2>
 
@@ -151,17 +127,26 @@
                             <a href="https://carlosmico.github.io/ShopList/" target="blank" class="title1">🛒
                                 Shoplist</a>
                         </div>
+
+                        <div class="project">
+                            <img src="./img/ToDotoDone.PNG" alt="TodoToDone">
+
+                            <a href='https://carlosmico.github.io/TodoToDone/' target="blank" class="title2">🖥️
+                                TodoToDone</a>
+                        </div>
+
                         <div class="project">
                             <img src="https://pbs.twimg.com/media/DfWQzsTW0AA9pBt.jpg" alt="Fuelgest">
 
                             <a href='https://play.google.com/store/apps/details?id=com.carlosapps.fuelgest&hl=en_US'
-                                target="blank" class="title2">⛽ FuelGest </a>
+                                target="blank" class="title3">⛽ FuelGest </a>
                         </div>
+
                         <div class="project">
 
                             <img src="./img/MainGestionLibros.PNG" alt="Gestión red libros">
 
-                            <a href='https://github.com/carlosmico/GestionRedLibros' target="blank" class="title3">📚
+                            <a href='https://github.com/carlosmico/GestionRedLibros' target="blank" class="title4">📚
                                 Gestión red libros</a>
                         </div>
                     </div>
@@ -195,7 +180,7 @@
             //options here
             autoScrolling: true,
             scrollHorizontally: true,
-            anchors: ['', 'aboutMe', 'technologies', 'projects', 'contact'],
+            anchors: ['welcome', 'aboutMe', 'technologies', 'projects', 'contact'],
             licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
         });
     </script>
