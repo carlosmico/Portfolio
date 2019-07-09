@@ -29,30 +29,41 @@
 
     /* Header */
 
-    header{
+    .collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar {
         position: sticky;
         width: 100vw;
-        padding: 1em;
+        padding: 0.5em;
         color: white;
         top: 0;
-        background-color: #272822;
+        background-color: #272822 !important;
         z-index: 2;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
-    header > a{
+    .navbar-nav{
+        padding: 0.5em;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url('../img/menu.png') !important;
+    }
+
+    .nav-link {
         all: unset;
-        color: white;
+        color: white !important;
     }
 
-    header > a:hover{
-        color: #66d9ef;
+    .nav-link:hover {
+        color: #66d9ef !important;
         cursor: pointer;
     }
 
-    header > a:first-child img{
+    nav>a:first-child img {
         height: 35px;
     }
 
@@ -77,28 +88,28 @@
     }
 
     .firstSection>p:first-child {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .firstSection>p:nth-child(2) {
         color: #f92672;
-        font-size: 9vw;
+        font-size: 6vw;
     }
 
     .firstSection>h1 {
         color: #66d9ef;
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     .firstSection>p:last-child {
-        font-size: 5vw;
+        font-size: 4vw;
         margin-left: 0;
     }
 
     .firstSection>p:nth-child(4) {
         display: inline;
         color: #a6e22e;
-        font-size: 5.5vw;
+        font-size: 3.5vw;
         background-color: #272822;
         border-right: 1px solid white;
         overflow: hidden;
@@ -133,6 +144,7 @@
     .aboutMe {
         height: 100vh;
         width: 100vw;
+        margin-top: 1em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -158,7 +170,7 @@
     .aboutMePicture {
         display: flex;
         align-items: center;
-        margin: 1em;
+        margin: 0.5em;
     }
 
     .aboutMePicture>img {
@@ -175,13 +187,13 @@
     }
 
     .aboutMeContent>p {
-        margin-top: 1em;
+        margin-top: 0.5em;
     }
 
     .aboutMe>p:last-child {
         align-self: center;
         font-style: italic;
-        margin-top: 2em;
+        
         color: grey;
     }
 
@@ -217,9 +229,9 @@
         max-height: 200px;
     }
 
-       /* === PROJECTS === */
+    /* === PROJECTS === */
 
-       .projectsList {
+    .projectsList {
         display: flex;
         align-items: center;
         justify-content: space-around;
