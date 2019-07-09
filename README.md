@@ -1,7 +1,7 @@
-# Portfolio Carlos Micó
+# Portfolio personal
 
-![alt text](https://carlosmico.github.io/Portfolio/img/favicon.png)
+![alt text](https://drive.google.com/file/d/1cammVJNkWBYuhcXHd7SrlueAraEHsrD0/view?usp=sharing)
 
 Este es mi portfolio personal. 
 
-En el podrás encontrar información sobre mí como: Quien soy?, Que ofrezco?, Que he hecho?, Cuales són mis experiencias?, etc.
+En el podrás encontrar información sobre mí como: quien soy?, las tecnologías que he utilizado, algunos de mis proyectos, etc.
