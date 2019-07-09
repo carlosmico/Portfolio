@@ -1,6 +1,6 @@
 # Portfolio personal
 
-![alt text](https://drive.google.com/file/d/1cammVJNkWBYuhcXHd7SrlueAraEHsrD0/view?usp=sharing)
+![alt text](https://carlosmico.github.io/Portfolio/img/faviconold.png)
 
 Este es mi portfolio personal. 
 
