@@ -1,6 +1,4 @@
-# Portfolio
-
-![alt text](https://carlosmico.github.io/Portfolio/img/faviconold.png)
+![alt text](https://carlosmico.github.io/Portfolio/img/faviconold.png) # Portfolio
 
 Este es mi portfolio personal. 
 
