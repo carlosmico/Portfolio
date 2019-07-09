@@ -1,4 +1,4 @@
-# Portfolio personal
+# Portfolio
 
 ![alt text](https://carlosmico.github.io/Portfolio/img/faviconold.png)
 
