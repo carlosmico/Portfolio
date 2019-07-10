@@ -77,10 +77,15 @@
 
     .nav-item:nth-child(4)>.nav-link:hover {
         color: #FD971F !important;
-    }
+   }
 
     nav>a:first-child img {
         height: 40px;
+    }
+
+    nav > a:first-child > img:hover{
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 0px #f92672;
     }
 
     /* ==== First Section ==== */
