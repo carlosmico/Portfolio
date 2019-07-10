@@ -1,7 +1,9 @@
-# Portfolio personal
+# Portfolio
 
-![alt text](https://drive.google.com/file/d/1cammVJNkWBYuhcXHd7SrlueAraEHsrD0/view?usp=sharing)
+![alt text](https://carlosmico.github.io/Portfolio/img/faviconold.png) 
 
 Este es mi portfolio personal. 
 
-En el podrás encontrar información sobre mí como: quien soy?, las tecnologías que he utilizado, algunos de mis proyectos, etc.
+En el podrás encontrar información sobre mí como: quién soy?, las tecnologías que he utilizado, algunos de mis proyectos, etc.
+
+Tecnologías utilizadas: HTML5, CSS, Bootstrap y JavaScript.
