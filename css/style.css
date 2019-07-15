@@ -85,7 +85,7 @@
 
     nav > a:first-child > img:hover{
         border-radius: 50%;
-        box-shadow: 0px 0px 10px 0px #f92672;
+        box-shadow: 0px 0px 10px 0px #f92672;       
     }
 
     /* ==== First Section ==== */
@@ -246,6 +246,16 @@
 
     .technologies>div>* {
         margin: 1em;
+    }
+
+    .technologies > div > span{
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .technologies > div > span > img{
+        width: 2em;
+        margin-right: 0.5em;
     }
 
     .technologies>img {
