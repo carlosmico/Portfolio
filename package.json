@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "![alt text](https://carlosmico.github.io/Portfolio/img/faviconold.png)",
+  "main": "index.js",
+  "dependencies": {
+    "fullpage.js": "^3.0.5",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosmico15/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosmico15/Portfolio/issues"
+  },
+  "homepage": "https://github.com/carlosmico15/Portfolio#readme"
+}
