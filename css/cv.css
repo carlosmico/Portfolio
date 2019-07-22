@@ -1,0 +1,19 @@
+/* Curriculum Vitae Page css */
+/* Colores monokai - Gris: #272822 Verde: #a6e22e Rosa: #f92672 Azul: #66d9ef */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #272822;
+    display: flex;
+    justify-content: stretch;
+}
+
+embed{
+    width: 100vw;
+    height: 100vh;
+}
