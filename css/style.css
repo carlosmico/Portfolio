@@ -273,8 +273,9 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        max-width: 600px;
+        max-width: 900px;
         text-align: center;
+        padding: 1em;
     }
 
     .technologies>div>* {
