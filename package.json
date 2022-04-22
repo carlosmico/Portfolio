@@ -4,7 +4,7 @@
   "description": "![alt text](https://carlosmico.github.io/Portfolio/img/faviconold.png)",
   "main": "index.js",
   "dependencies": {
-    "fullpage.js": "^3.0.5"
+    "fullpage.js": "^4.0.5"
   },
   "devDependencies": {},
   "scripts": {
